@@ -1,2 +1,2 @@
-web: gunicorn djangoquiz.wsgi --log-file -
+web: gunicorn base.wsgi --log-file -
 
